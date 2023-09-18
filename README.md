@@ -10,5 +10,5 @@ also allows users to cut shorts and save to playlists as their favorite
 
 ## Skills
 
-HTML/CSS, ReactJs
+HTML/SCSS, ReactJs,
 Java Spring Boot
