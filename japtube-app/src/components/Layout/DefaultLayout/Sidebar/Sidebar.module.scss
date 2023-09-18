@@ -1,0 +1,37 @@
+/*-----------------sidebar-----------*/
+.sidebar {
+    background: #fff;
+    width: 50px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 80px;
+}
+.shortcut-links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+
+.shortcut-ele span {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.shortcut-ele span img {
+    align-self: center;
+    width: 20px;
+}
+.shortcut-ele {
+  padding-top: 5px;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.shortcut-ele:hover{
+  background-color: rgb(224, 221, 221);
+}

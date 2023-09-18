@@ -1,0 +1,23 @@
+/*---------home page-------*/
+.container {
+    background: #f9f9f9;
+    height: 100vh;
+    margin-left: 70px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.preview-frame-container {
+    position: absolute;
+    width: 30%;
+}
+.video-list-container {
+    margin-left: 400px;
+    position: absolute;
+    width: 62%;
+}

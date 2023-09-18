@@ -1,0 +1,56 @@
+//admin-page-wrapper
+.admin-page-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    & aside {
+        position: fixed;
+        z-index: 1;
+    }
+}
+
+//right side
+.right-side-content {
+    box-sizing: border-box;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+//admin sidebar
+.profile {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.admin-sidebar {
+    box-sizing: border-box;
+    background-color: rgb(252, 250, 250);
+    height: 100vh;
+}
+
+.admin-page-content {
+    padding: 20px;
+    background-color: rgba(197, 194, 194, 0.3);
+    min-height: 80%;
+    width: 100%;
+    height: fit-content;
+}
+
+.sidebar-menu {
+    height: 70%;
+    overflow-y: scroll;
+}

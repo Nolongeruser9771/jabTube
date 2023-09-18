@@ -1,0 +1,71 @@
+
+//playlist
+.playList-making-wrapper {
+    width: 1270px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: rgba(35, 35, 35, 0.75);
+}
+
+.playlist {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    z-index: 11;
+    align-self: center;
+    & .playlist-menu-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    & div:nth-child(2) {
+        overflow-y: scroll;
+    }
+    & .add-playlist {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: end;
+        gap: 5px;
+    }
+    & #btn-close-playlist:hover, #btn-add-playlist:hover {
+        cursor: pointer;
+        background-color: rgb(237, 232, 232);
+    }
+    & input {
+        width: 80%;
+        align-items: end;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 1.3rem;
+    }
+}
+
+.playlist-choose-confirm-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: rgb(206, 205, 205);
+    border-radius: 20px;
+    font-size: 1.3rem;
+    width: 100%;
+    box-sizing: border-box;
+    & :hover {
+        cursor: pointer;
+    }
+}
+
+.playlist-choose-confirm-btn :hover {
+    cursor: pointer;
+}

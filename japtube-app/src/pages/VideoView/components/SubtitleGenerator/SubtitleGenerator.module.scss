@@ -1,0 +1,114 @@
+//subtitle
+.subtile-container {
+    flex-basis: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 465px;
+    margin-bottom: 15px;
+}
+
+.subtitle-generate {
+    padding: 0px 4%;
+    display: block;
+    overflow-y: scroll;
+}
+
+.subtitle-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.025);
+    padding: 0px 4%;
+}
+
+.subtitle-header .subtitle-close {
+    border-radius: 10px;
+    padding: 5px;
+}
+.subtitle-close:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.subtile-sentence {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 8px 0;
+    margin-bottom: 1.5rem;
+}
+
+.timestamp {
+    flex-basis: 15%;
+}
+.subtitle {
+    font-size: 1.3rem;
+}
+
+.timestamp span {
+    background-color: rgba(62, 166, 255, 0.3);
+    border-radius: 5px;
+    padding: 0 5px;
+    color: #065fd4;
+    font-size: 1.25rem;
+}
+
+.timestamp span:hover {
+    cursor: pointer;
+}
+
+//custom scrollbar
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(46, 46, 46, 0.5);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(46, 46, 46, 0.25);
+}
+
+//translate
+.translate-wrapper {
+    justify-self: end;
+    align-self: self-end;
+    width: 100%;
+    margin-top: 5px;
+}
+.result-wrapper {
+    padding: 0px 4%;
+}
+.word {
+    color: rgb(35, 2, 2, 0.75);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.phonetic {
+    font-size: 1.25rem;
+}
+
+.lists-mean ul {
+    margin: 0;
+    list-style: none;
+    color:   #065fd4;
+}
+.lists-mean ul li {
+    display: inline-flex;
+    gap: 10px;
+}

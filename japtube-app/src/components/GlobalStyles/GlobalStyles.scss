@@ -1,0 +1,33 @@
+@import 'normalize.css';
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://video-react.github.io/assets/video-react.css");
+
+:root {
+    --primary: rgb(247, 140, 140);
+}
+
+html {
+    margin: 0;
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed; //tối ưu để hiển thị nhanh nhất
+}
+
+.container {
+    display: block;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    align-items: center;
+    width: 1270px;
+    box-sizing: border-box;
+    margin-top: 60px;
+}

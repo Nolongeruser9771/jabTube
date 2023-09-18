@@ -1,0 +1,17 @@
+.app-wrapper {
+    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
+    overflow: scroll;
+    margin: 0;
+}
+
+//playlist
+.playList-making-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    // position: absolute;
+    // z-index: 8;
+    background-color: rgba(35, 35, 35, 0.75);
+}

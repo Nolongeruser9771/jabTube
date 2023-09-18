@@ -1,0 +1,106 @@
+.orders-table {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 1px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1.4rem;
+    transition: 1s;
+    & th {
+        padding: 10px;
+        background-color: rgb(44, 43, 43, 0.8);
+        color: white;
+    }
+    & .table-checkbox {
+        color: white;
+    }
+    & th:nth-child(1) {
+        border-radius: 10px 0px 0px 0px;
+    }
+    & th:last-child {
+        border-radius: 0px 10px 0px 0px;
+    }
+    & td {
+        border-bottom: 1px solid rgba(252, 248, 248, 0.75);
+        padding: 8px;
+    }
+    & tr:hover {
+        background-color: rgb(230, 226, 226);
+        cursor: pointer;
+    }
+    & tr button:hover {
+        cursor: pointer;
+    }
+}
+
+#orders-search-box {
+    line-height: 1;
+    background: white;
+    border-radius: 15px;
+    padding: 8px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.table-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    & div {
+        padding: 5px;
+        font-size: 1.3rem;
+        & span {
+            margin-right: 15px;
+        }
+    }
+}
+
+.table-footer button {
+    box-sizing: border-box;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.table-footer button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    & .order-confirm-wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 45px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin-top: -15px;
+        & button {
+            font-size: 1.5rem;
+            padding: 3px 10px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        & div {
+            display: flex;
+        }
+        & div span svg {
+            width: 25px;
+            height: 25px;
+            color: rgb(46, 134, 193);
+            & :hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

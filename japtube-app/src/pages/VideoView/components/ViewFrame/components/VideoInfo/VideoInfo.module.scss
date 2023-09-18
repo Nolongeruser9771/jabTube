@@ -1,0 +1,91 @@
+//film info
+.film-avatar {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.film-avatar div {
+    flex: 1;
+    line-height: 10px;
+}
+.film-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.film-info .title {
+    font-size: 13px;
+    color: #5a5a5a;
+}
+
+.film-avatar button {
+    background: red;
+    color: #fff;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.film-avatar #thumbnail-avatar div {
+    width: 50px;
+    margin: 0;
+}
+.film-avatar  #thumbnail-avatar {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+//vid description
+.vid-description {
+    padding-left: 55px;
+    margin: 20px 0;
+}
+.vid-description p {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #5a5a5a;
+}
+
+.film-info {
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    width: 110px;
+    align-items: center;
+    margin: 0;
+}
+
+.film-info .level {
+    color: #fff;
+}
+#film-title {
+    margin-left: 15px;
+}
+
+//episode
+.episode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(118, 6, 6, 0.5);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.episode:hover {
+    background-color: rgb(118, 6, 6, 0.75);
+}
+
+.episode-container {
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+}

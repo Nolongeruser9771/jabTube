@@ -1,0 +1,68 @@
+.wrapper {
+    display: flex;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 2%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+// page wrapper
+.page-wrapper {
+    width: 1200px;
+}
+//nav-left
+.nav-left {
+    display: flex;
+    align-items: center;
+    width: 177px;
+    gap: 25px;
+    & svg {
+        color: rgb(143, 142, 142);
+        width: 25px;
+        height: 25px;
+    }
+    & svg:hover {
+        cursor: pointer;
+    }
+}
+
+.logo {
+    width: 100%;
+    & :hover {
+        cursor: pointer;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+//nav right
+.nav-right {
+    display: flex;
+    align-items: center;
+    & a:hover {
+        cursor: pointer;
+    }
+}
+
+.nav-right svg {
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    color: rgb(143, 142, 142);
+}
+
+.nav-right .user-icon {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}

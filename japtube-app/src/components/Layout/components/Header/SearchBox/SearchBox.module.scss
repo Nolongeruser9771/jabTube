@@ -1,0 +1,32 @@
+
+//nav middle
+
+.nav-middle {
+    display: flex;
+    align-items: center;
+}
+
+.mic-icon {
+    width: 16px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+
+input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.search-box img {
+    width: 15px;
+}

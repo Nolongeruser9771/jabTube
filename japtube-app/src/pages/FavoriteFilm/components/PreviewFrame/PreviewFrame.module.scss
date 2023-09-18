@@ -1,0 +1,92 @@
+/*---------preview frame-------*/
+.preview-container {
+    background-color: rgb(94, 92, 92);
+    width: 360px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+//preview video
+.preview-container .preview-video {
+    width: 295px;
+    height: 185px;
+    border-radius: 20px;
+}
+
+.preview-container .preview-video .thumbnail {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.preview-video:hover .play-btn {
+    opacity: 1;
+    cursor: pointer;
+}
+.preview-video:hover .overlay-play {
+    background-color: rgb(5, 5, 5);
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+//video-list-info
+.video-list-info {
+    width: 85%;
+    color: white;
+}
+.video-list-info h2 {
+    margin: 0;
+    margin-top: 10px;
+}
+.video-list-info p {
+    font-size: 1.3rem;
+}
+.video-list-info .view-video-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    line-height: 40px;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+.view-video-btn img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.video-list-info .view-video-btn:hover {
+    cursor: pointer;
+    background-color: rgb(161, 159, 159);
+    color: white;
+}
+
+//overlay-video
+//play btn
+.preview-video .overlay-play {
+    width: 295px;
+    height: 185px;
+    border-radius: 15px;
+    position: absolute;
+}
+.overlay-play .play-btn {
+    opacity: 0;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50px;
+    left: 105px;
+    z-index: 3;
+    transition: 0.25s;
+}

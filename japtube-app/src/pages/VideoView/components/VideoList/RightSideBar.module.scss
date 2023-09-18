@@ -1,0 +1,133 @@
+// right sidebar
+
+.right-sidebar {
+    flex-basis: 100%;
+    align-items: start;
+}
+.side-video-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.side-video-list .small-thumbnail {
+    flex-basis: 49%;
+}
+
+.side-video-list img {
+    border-radius: 10px;
+}
+
+.side-video-list .vid-info {
+    flex-basis: 49%;
+}
+
+//video list container
+.video-list-container {
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    margin-left: -20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: -1%;
+}
+.vid-list {
+    width: 100%;
+    padding: 10px;
+    padding-left: 1%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+.flex-div {
+    margin-left: 20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.vid-list .thumbnail img {
+    position: relative;
+    width: 180px;
+    border-radius: 5px;
+    transition: 0.25s;
+    z-index: 2;
+    height: 110px;
+}
+
+.vid-list:hover .thumbnail {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.vid-list:hover .play-btn {
+    cursor: pointer;
+    opacity: 1;
+}
+.vid-list:hover {
+    background-color: #ece9e9;
+}
+
+.vid-list .flex-div .level {
+    background-color: rgb(72, 132, 192) rgb(69, 212, 186);
+    color: white;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.vid-info {
+    color: #5a5a5a;
+    font-size: 15px;
+}
+.vid-info a {
+    color: #000;
+    font-weight: 600;
+    display: block;
+}
+
+.vid-info p {
+    margin: 0;
+}
+
+.vid-info :nth-child(2) {
+    font-size: 1.3rem;
+}
+
+.vid-info #title {
+    color: #000;
+    font-weight: 600;
+    display: block;
+}
+
+//overlap
+.overlay-play {
+    border-radius: 8px;
+    position: absolute;
+}
+.overlay-play .play-btn {
+    opacity: 0;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 30px;
+    left: 60px;
+    z-index: 3;
+    transition: 0.25s;
+}
+.level {
+    padding: 5px;
+}

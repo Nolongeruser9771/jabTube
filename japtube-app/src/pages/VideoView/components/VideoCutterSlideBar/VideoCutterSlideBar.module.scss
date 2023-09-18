@@ -1,0 +1,21 @@
+#slider-container {
+    width: 829px;
+    background-color: rgba(8, 0, 0, 0.35);
+    margin-top: -474px;
+    height: 460px;
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    align-items: end;
+}
+
+#slider {
+    box-sizing: border-box;
+    width: 829px;
+    margin-top: -56px;
+    background: linear-gradient(to top, #bcb9b9,  #e8e6e6, rgba(255, 255, 255, 0.05));
+    color: rgb(233, 25, 25);
+    position: absolute;
+    z-index: 2;
+    padding: 25px 0px;
+}

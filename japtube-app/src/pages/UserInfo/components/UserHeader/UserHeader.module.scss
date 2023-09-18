@@ -1,0 +1,43 @@
+.user-header-container {
+    box-sizing: border-box;
+    padding: 0px 50px;
+    padding-top: 20px;
+    width: 100%;
+}
+.user-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.detail-info {
+    margin-left: 25px;
+    line-height: 40px;
+}
+
+.detail-info div:nth-child(2) {
+    font-size: 1.4rem;
+    color:rgb(73, 73, 73, 0.85);
+}
+.user-header-container .tag {
+    display: flex;
+    color: rgb(73, 73, 73, 0.85);
+    margin-top: 5px;
+}
+.user-header-container .tag .tag-ele{
+    padding: 10px 20px;
+}
+.user-header-container .tag .tag-ele:hover {
+    background-color: rgb(197, 196, 196);
+    cursor: pointer;
+}
+.user-info img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.user-avatar:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}

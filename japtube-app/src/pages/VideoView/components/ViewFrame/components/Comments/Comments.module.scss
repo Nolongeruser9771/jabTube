@@ -1,0 +1,115 @@
+//comments
+.comment-container h4 {
+    font-size: 18px;
+    color: #5a5a5a;
+    margin-top: 16px;
+}
+
+.add-comment {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#add {
+    width: 100%;
+    height: 30%;
+    margin: 0;
+}
+.add-comment img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.add-comment input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-top: 12px;
+    background: transparent;
+}
+
+.old-comment {
+    display: flex;
+    align-items: start;
+    margin: 20px 0;
+}
+
+.old-comment p {
+    margin: 0;
+}
+
+.old-comment img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.old-comment h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.old-comment h3 span {
+    font-size: 12px;
+    color: #555;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.comment-content {
+    width: 100%;
+    & h3 {
+        margin-top: 0;
+    }
+}
+.acomment-action {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.acomment-action img {
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.acomment-action span {
+    margin-right: 20px;
+    color: #5a5a5a;
+}
+
+.acomment-action span:hover {
+    cursor: pointer;
+    color: rgb(28, 27, 27);
+}
+.acomment-action a {
+    color: #00f;
+}
+
+#comment-user-avatar div img {
+    width: 50px;
+    height: 50px;
+}
+
+//delete comment
+.delete-comment-btn {
+    padding: 5px 0px;
+    width: 50%;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #e1dddd;
+    border-radius: 10px;
+    & span {
+        font-size: 1.2rem;
+        margin-right: 30px;
+        color: #7d7d7d;
+    }
+    & span:hover {
+        cursor: pointer;
+        color: black;
+    }
+}
+
+.delete-comment-btn div {
+    text-align: right;
+}

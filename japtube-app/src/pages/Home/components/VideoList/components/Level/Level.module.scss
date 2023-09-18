@@ -1,0 +1,15 @@
+.level {
+    background-color:rgb(72, 132, 192) rgb(69, 212, 186);
+    color: white;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.level span {
+    color: white;
+}

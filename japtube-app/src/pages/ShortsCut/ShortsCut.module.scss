@@ -1,0 +1,141 @@
+//prevew frame
+.container {
+    width: 100%;
+}
+.short-making-frame-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.video-preview-frame {
+    width: 60%;
+    height: 100%;
+}
+
+.shorts-input-info {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 80vh;
+    width: 35%;
+    box-shadow: 1px 1px 5px 2px rgb(197, 194, 194);
+
+    & input {
+        width: 100%;
+        box-sizing: border-box;
+        background: white;
+        background-color: rgb(253, 253, 253);
+        border: 1px solid rgb(194, 191, 191);
+        padding: 5px;
+        border-radius: 15px;
+        font-size: 1.3rem;
+    }
+
+    & div {
+        margin-bottom: 15px;
+    }
+
+    & div:last-child {
+        display: flex;
+        justify-content: right;
+    }
+
+    & .shorts-create-form-btn > div,
+    button {
+        box-sizing: border-box;
+        background-color: rgb(220, 219, 219);
+        border: none;
+        padding: 8px 25px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        transition: 0.5s;
+        font-size: 1.4rem;
+        height: 37px;
+    }
+
+    & button {
+        padding: 0px 25px;
+    }
+
+    & .shorts-create-form-btn div:hover,
+    button:hover {
+        background-color: gray;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+//playlist
+.playList-making-wrapper {
+    width: 1270px;
+    height: 100vh;
+    position: absolute;
+    z-index: 8;
+    background-color: rgba(35, 35, 35, 0.75);
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 300px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    align-self: center;
+    & div:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    & .add-playlist {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: end;
+        gap: 5px;
+    }
+    & #btn-close-playlist:hover,
+    #btn-add-playlist:hover {
+        cursor: pointer;
+        background-color: rgb(237, 232, 232);
+    }
+    & input {
+        width: 80%;
+        align-items: end;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 1.3rem;
+    }
+}
+
+//wrapper
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+//alert
+.text-danger {
+    font-size: 1.2rem;
+    color: red;
+    margin: 0;
+    margin-top: 2px;
+    text-align: right;
+}
+
+//slider
+

@@ -1,0 +1,107 @@
+.play-video {
+    width: 100%;
+}
+
+.play-video video {
+    flex-basis: 69%;
+    width: 100%;
+}
+
+//tag
+.play-video .tags a {
+    color: #00f;
+    font-size: 14px;
+}
+//title
+.play-video h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+//description
+.play-video .play-video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.play-video-info div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.play-video-info span img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.play-video-info a img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.play-video-info span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.play-video-info div a {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.play-video-info p {
+    margin: 0;
+}
+
+.play-video hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+//view video
+.preview-video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.preview-video:hover .play-btn {
+    opacity: 1;
+    cursor: pointer;
+}
+.preview-video:hover .overlay-play {
+    background-color: rgb(5, 5, 5);
+    opacity: 0.65;
+    cursor: pointer;
+}
+//overlay-video
+//play btn
+.preview-video .overlay-play {
+    width: 100%;
+    height: 99%;
+    position: absolute;
+}
+.overlay-play .play-btn {
+    opacity: 0;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 30%;
+    left: 40%;
+    z-index: -1;
+    transition: 0.25s;
+}

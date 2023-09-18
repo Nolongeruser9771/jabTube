@@ -1,0 +1,27 @@
+.category-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    height: 35px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.category {
+    background-color: rgb(240, 239, 239);
+    color: rgb(96, 95, 95);
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 1.6rem;
+    transition: 0.25s;
+    text-align: center;
+}
+.category:hover {
+    background-color: rgb(96, 96, 96);
+    color: white;
+    cursor: pointer;
+}
